@@ -1,0 +1,65 @@
+/* LINK STATES */
+/* unvisited */
+a {
+    font-size: 35px;
+}
+
+a:link {
+    color: rgb(63, 6, 117);
+}
+
+/* visited */
+a:visited {
+    color: blue;
+}
+
+/* mouse over */
+a:hover {
+    color: black;
+}
+
+/*selected */
+a:active {
+    color: rgb(179, 119, 119);
+}
+
+/* Link styling combination */
+a:link, a:visited, a:hover, a:active {
+    background-color:rgb(168, 163, 156)
+ }
+
+.background-other {
+    background-color:rgb(255, 54, 218)
+}
+
+/* OR full declaration */
+a.background:link {
+    background-color:rgb(255, 2, 2)
+}
+
+a.background:visited {
+    background-color:rgb(251, 2, 2)
+}
+
+a.background:hover {
+    background-color:rgb(230, 251, 2)
+}
+
+a.background:active {
+    background-color:rgb(251, 2, 4)
+}
+
+
+/* LINK BACKGROUND */
+/* Just by class */
+.background {
+    background-color:rgb(247, 166, 66)
+}
+
+/* BUTTON LINK */
+a.button {
+    text-decoration: none;
+    background-color:blueviolet;
+    color:aliceblue;
+    padding: 14px;
+}
