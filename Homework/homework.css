@@ -1,12 +1,13 @@
 h1 {
-color:rgb(99, 2, 95);
+color:rgb(255, 255, 255);
 }
 
 h2 {
-color:rgb(178, 3, 201)
+color:rgb(174, 37, 37)
 }
 
 body {
+    margin: 15px;
     background-color: rgb(13, 18, 104);
 }
 
@@ -14,7 +15,40 @@ p {
     background-color: beige;
 }
 
+div {
+    justify-content: center;
+}
+
 h3 {
+    margin: 15px;
+    justify-content: center;
+    width: 12%;
+    border-radius: 12px;
     background-color:aqua
 }
 
+
+section > div {
+    width: 13%;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 12px;
+}
+
+ div.section1 {
+    background: orange;
+ }
+
+ div.section2 {
+    background-color: yellow;
+ }
+
+ div.section3 {
+    background-color: greenyellow;
+ }
+
+ul.features {
+    list-style-type: none;
+    font-style: italic;
+    color: aqua;
+}
